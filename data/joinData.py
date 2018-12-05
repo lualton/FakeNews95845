@@ -45,8 +45,6 @@ data = pd.concat([buzz, kaggle, news, celebrity])
 data.head()
 
 data['label'].value_counts()
-type(data['label'][0])
-len(data)
 
 data = data.replace(('mostly true', 'legit', 'REAL'), 'real')
 data = data.replace(('FAKE', 'fake', 'mostly false', 'no factual content'), 'fake')
