@@ -6,10 +6,10 @@ import numpy as np
 import re
 
 
-buzz = pd.read_csv("buzzfeedcorpus.csv")
-kaggle = pd.read_csv("fake_or_real_news.csv")
-news = pd.read_csv('news.csv')
-celebrity = pd.read_csv("celebrity.csv")
+buzz = pd.read_csv("data/buzzfeedcorpus.csv")
+kaggle = pd.read_csv("data/fake_or_real_news.csv")
+news = pd.read_csv('data/news.csv')
+celebrity = pd.read_csv("data/celebrity.csv")
 
 buzz.shape
 kaggle.shape
