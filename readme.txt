@@ -1,4 +1,4 @@
-This repostiroy contains project deliverables for Professor Jeremy Weiss' Applied Analytics Course.
+This repo contains project deliverables for Professor Jeremy Weiss' Applied Analytics Course.
 
 The FakeNews_FinalReport.pdf contains our paper.
 
